@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        .error-field{
+            font-size: 12px;
+            color: red;
+        }
+        label{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form class="container">
+        <h3>
+            <span class="bi bi-person">User Login</span>
+        </h3>
+        <div class="form-group">
+            <label for="txtUser">Username</label>
+            <div>
+                <input type="text" name="txtUser">
+                <div class="error-field">
+                    <span>Username is required</span>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
